@@ -4,37 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" type='text/css' rel="stylesheet">
-    <title>Freebee | Mobile Applications</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Grid Practice</title>
 </head>
 
 <body>
-    <!-- Navbar -->
-    <header class="navbar">
-        <a class="navbar__logo" href="#">Free<span class="navbar__logo--font-color">Bee</span></a>
+    <!-- Navigation -->
+    <header>
+        <a href="#">Logo</a>
         <nav>
-            <ul class="navbar__links">
+            <ul>
                 <li>
                     <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">Key Features</a>
+                    <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="#">Pricing</a>
-                </li>
-                <li>
-                    <a href="#">Testimonial</a>
-                </li>
-                <li>
-                    <a href="#">FAQ</a>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
-            <a href="#">Try for free</a>
         </nav>
     </header>
-
-    <script src="index.js"></script>
+    <!-- Main -->
+    <main>
+        <div class="main-content">
+            <h1>CSS Grid Practice</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, aut. Veniam fugit repellat porro
+                voluptates. Voluptatibus saepe voluptatem iure dignissimos, ducimus maiores sit sapiente vero porro
+                corporis ex, quis libero!</p>
+        </div>
+        <div class="main-image">
+            <img src="img/main-image.jpg" alt="">
+        </div>
+    </main>
+    <!-- About -->
+    <section id="about">
+        <div class="about-image">
+            <img src="img/about-image.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, amet? Amet quo distinctio error sapiente
+                ratione saepe eos cum harum molestiae unde voluptatum reiciendis esse, quidem aperiam magni repudiandae
+                ad!</p>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-form-wrapper">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <input name="name" id="name" placeholder="Enter name" type="text">
+                <input name="email" id="email" placeholder="Enter email" type="email">
+                <input name="subject" id="subject" placeholder="Enter subject" type="text">
+                <textarea name="message" id="message" placeholder="Enter message" cols="30" rows="10"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <h3>CSS Grid Practice</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam quo aut velit cupiditate,
+                deleniti corporis sit iure vero doloremque, ratione perferendis qui nesciunt. Quaerat dolores excepturi
+                cupiditate incidunt ea!</p>
+        </div>
+    </footer>
 </body>
 
 </html>
